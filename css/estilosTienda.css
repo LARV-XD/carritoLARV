@@ -1,0 +1,82 @@
+:root {
+
+	--espacios: 10px;
+	--espacios-contenido: 45px;
+}
+
+  
+
+body {
+	background-image:url(/img1/Foto4.jpg);
+
+}
+
+.container{
+    padding: 20px;
+    max-width: 100%;
+    }
+    
+.card-text{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+   border: 2px solid ;
+   border-radius: 6px;
+   font-size: 12px;
+   background: white;
+        
+    
+    
+}
+.card-img-top{
+   
+    max-width: 100%;
+    
+
+    
+    
+}
+.card-title{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    background: white;
+    border: 2px solid;
+    border-radius: 20px;
+
+    
+}
+.card{
+    width: 70%;
+    display: grid;
+
+}
+
+#fotoinfo{
+    max-width: 450px;
+   max-height: 200px;
+   margin-left: 10px;
+   margin-top: 10px;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+#modalinfoproducto{
+   width: 90%;
+    padding: 0;
+    
+
+}
+
+.btn{
+    border-radius: 15px;
+    background: gray;
+    font-size: 12px;
+}
+.btn:hover{background: wheat;
+}
