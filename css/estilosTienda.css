@@ -46,9 +46,11 @@ body {
     
 }
 .card{
-    width: 70%;
+    width: 80%;
     display: grid;
-
+    border: 2px solid;
+    border-radius: 12px;
+    background-image: url(/img1/A10.jpg);
 }
 
 #fotoinfo{
